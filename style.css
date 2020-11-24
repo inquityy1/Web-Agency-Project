@@ -13,4 +13,52 @@ body {
 nav ul {
 	list-style-type: none;
 	border-top: 6px solid #e6af2e;
+	background-color: #191716;
 }
+
+nav ul li a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	padding: 15px 25px;
+	color: #e6af2e;
+}
+
+nav ul li a:hover {
+	color: #e0e2db;
+}
+
+.logo {
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	font-size: 40px;
+	background: #e6af2e;
+	color: #191716;
+	font-style: italic;
+}
+
+.logo:hover {
+	background-color: #e0e2db;
+	color: #e6af2e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
