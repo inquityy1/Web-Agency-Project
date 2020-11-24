@@ -496,6 +496,22 @@ nav ul li a:hover {
 	border-color: #191716;
 }
 
+@media screen and (min-width:576px) {
+	.post-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 1em;
+		grid-row-gap: 1em;
+	}
+}
+
+@media screen and (min-width:996px) {
+	.post-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 1em;
+	}
+}
 
 
 
