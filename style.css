@@ -254,6 +254,52 @@ nav ul li a:hover {
 	color: #e6af2e;
 }
 
+.back-text button:hover {
+	background-color: #e6af2e;
+	color: #191716;
+}
+
+.service-item-white button {
+	background: #e6af2e;
+	color: #191716;
+}
+
+.service-item-white button:hover {
+	background: #191716;
+	border-color: #191716;
+	color: #e6af2e;
+}
+
+.service-item:hover .front-text {
+	transform: translateY(-200px);
+}
+
+.service-item:hover .back-text {
+	bottom: 0;
+}
+
+@media screen and (min-width:776px) {
+	.services-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	.services-container .service-item:nth-of-type(1) {
+		order: 1;
+	}
+	
+	.services-container .service-item:nth-of-type(2) {
+		order: 2;
+	}
+	
+	.services-container .service-item:nth-of-type(3) {
+		order: 4;
+	}
+	
+	.services-container .service-item:nth-of-type(4) {
+		order: 3;
+	}
+}
 
 
 
